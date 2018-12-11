@@ -1,0 +1,11 @@
+python网络编程部分总结:
+单线程socket:利用socket模块下的类socket中的定义的方法（函数接口）进行socket的创建以及对客户端请求的处理。
+服务端:
+1、创建服务器的socket，import socket ;s=socket.socket()
+2、绑定服务器的ip和地址s.bind((host,port))
+3、进行监听s.listen(5)
+4、当有客户端申请连接时，服务端会返回自己的服务套接字和客户端的ip和端口，这期间利用 的是ss，addr=s.accept()
+5、链接成功后，服务端可以利用s.send();s.recv()与客户端进行通信。
+关于如何保持一经链接服务端持续提供服务，可以引入循环语句。而s.accept()放置的位置是关键。
+多线程socket：利用SocketServer模块下的众多类（请求处理类：baserequesthandle；多线程并发处理类:threadingtcpserver()）
+1、创建自己的请求处理类并继承brh类，用于实现处理客户端请求，与单线程中联机成

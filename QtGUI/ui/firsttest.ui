@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>test</class>
+ <widget class="QWidget" name="test">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="qiutButton">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>220</y>
+     <width>80</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>quitButton</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>qiutButton</sender>
+   <signal>clicked()</signal>
+   <receiver>test</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>339</x>
+     <y>231</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

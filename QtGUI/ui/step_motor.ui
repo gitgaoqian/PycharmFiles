@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>327</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>步进电机控制上位机</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_dir">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>71</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>方向控制</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_pos">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>160</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>正向</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_rev">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>160</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>反向</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_vel">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>66</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>速度调节</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="Slider_vel">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>250</y>
+     <width>160</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>80</number>
+   </property>
+   <property name="maximum">
+    <number>120</number>
+   </property>
+   <property name="singleStep">
+    <number>5</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_start">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>80</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>启动</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Button_stop">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>80</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_enable">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>90</y>
+     <width>71</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>使能开关</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

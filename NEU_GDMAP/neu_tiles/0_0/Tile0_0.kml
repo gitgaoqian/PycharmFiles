@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Document id="Tile0_0">
+      <name>Tile0_0</name>
+      <Placemark id="Tile0_0.1">
+        <name>Tile0_0</name>
+        <Style>
+          <LineStyle>
+            <color>ffff0000</color>
+            <width>1</width>
+          </LineStyle>
+          <PolyStyle>
+            <color>318b8b8b</color>
+          </PolyStyle>
+        </Style>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                123.412159088479,41.7692758648464,0
+                123.417665647532,41.7692743569911,0
+                123.417665064729,41.7651581990989,0
+                123.412158505724,41.7651597069757,0
+                123.412159088479,41.7692758648464,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

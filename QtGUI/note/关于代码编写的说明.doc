@@ -1,0 +1,7 @@
+通过pyuic4 first_test.ui > first_test1.py 生成的是界面代码，其中创建了一个界面类
+我们可以在该类下继续编写信号与槽函数的连接代码，但这样显得不规范，以下方法可供选择：
+１　直接在界面类下编写信号和槽函数的连接代码　motor_test.py
+２　在同一文件下创建子类，子类继承界面类，子类中编写信号与槽函数的连接代码,first_test.py
+３  新建python文件，导入界面代码的python文件，在新文件下编写信号与槽函数的连接代码（imumain11.py）
+
+参考：http://blog.csdn.net/zd0303/article/details/50261481
