@@ -1,0 +1,26 @@
+﻿参考资料:
+hhttp://www.runoob.com/json/json-syntax.htmlttp://www.cnblogs.com/maybe2030/p/4558225.html#_label0
+
+html:用来显示数据
+传输数据:xml和json
+
+json与xml一样也是用来传输数据的,他采用了完全独立于语言的文本格式.
+json的语法规则:
+JSON 语法是 JavaScript 对象表示语法的子集。
+数据在名称/值对中 ； “Name” ： “Poll”
+数据由逗号分隔； 数据的类型有:数字 字符串 逻辑 数组 对象(值对) null
+花括号保存对象；
+其中key必须是字符串，value可以是合法的 JSON 数据类型（字符串, 数字, 对象, 数组, 布尔值或 null）。
+访问对象:使用点号（.）或中括号[]来访问对象的值:
+var myObj, x;
+myObj = { "name":"runoob", "alexa":10000, "site":null };
+x = myObj.name;
+x=myobj['name'];
+方括号保存数组；
+
+
+
+
+如何使用python来读取和使用json?
+
+

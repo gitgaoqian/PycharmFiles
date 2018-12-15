@@ -1,0 +1,14 @@
+
+<html>
+<head>
+  <title>Please Sign In</title>
+</head>
+<body>
+  <form action="/student" method="post">#表示通过post方法链接到/student
+    <legend>选择查询学生的名字:</legend>
+    <p><input type='text' name="searchname" placeholder="查询的名字" value="{{ username }}"></p>
+    
+    <p><button type="submit">查询</button></p>
+  </form>
+</body>
+</html>

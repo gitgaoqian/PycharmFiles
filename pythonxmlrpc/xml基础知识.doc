@@ -1,0 +1,81 @@
+﻿参考:http://www.runoob.com/xml/xml-usage.html
+1 XML 和 HTML 之间的差异
+XML 不是 HTML 的替代。
+XML 和 HTML 为不同的目的而设计：
+XML 被设计用来传输和存储数据，其焦点是数据的内容。
+HTML 被设计用来显示数据，其焦点是数据的外观。
+HTML 旨在显示信息，而 XML 旨在传输信息。
+2 XML 不会做任何事情
+也许这有点难以理解，但是 XML 不会做任何事情。XML 被设计用来结构化、存储以及传输信息。
+下面实例是 Jani 写给 Tove 的便签，存储为 XML：
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+上面的这条便签具有自我描述性。它包含了发送者和接受者的信息，同时拥有标题以及消息主体。
+但是，这个 XML 文档仍然没有做任何事情。它仅仅是包装在 XML 标签中的纯粹的信息。我们需要编写软件或者程序，才能传送、接收和显示出这个文档。
+3 通过 XML 您可以发明自己的标签
+上面实例中的标签没有在任何 XML 标准中定义过（比如 <to> 和 <from>）。这些标签是由 XML 文档的创作者发明的。
+这是因为 XML 语言没有预定义的标签。
+HTML 中使用的标签都是预定义的。HTML 文档只能使用在 HTML 标准中定义过的标签（如 <p>、<h1> 等等）。
+XML 允许创作者定义自己的标签和自己的文档结构。
+4 xml文档的树结构
+XML 文档形成了一种树结构，它从"根部"开始，然后扩展到"枝叶"。
+XML 文档必须包含根元素。该元素是所有其他元素的父元素。可以只有跟元素然后紧跟的就是文本内容.
+XML 文档中的元素形成了一棵文档树。这棵树从根部开始，并扩展到树的最底端。
+所有的元素都可以有子元素：
+xml架构实例:
+
+
+
+
+
+
+
+
+
+
+XML 文档实例
+<bookstore>
+    <book category="CHILDREN">
+        <title lang="en">Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+        <book category="WEB">
+        <title lang="en">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+</bookstore>
+
+
+XML 语法规则:
+	XML 文档必须有根元素
+	XML 声明
+	所有的 XML 元素都必须有一个关闭标签
+	XML 标签对大小写敏感
+	XML 必须正确嵌套
+	XML 属性值必须加引号
+	实体引用
+	XML 中的注释
+	在 XML 中，空格会被保留
+
+XML 元素
+	XML 元素指的是从（且包括）开始标签直到（且包括）结束标签的部分。
+一个元素可以包含：
+	其他元素
+	文本
+	属性
+	或混合以上所有...
+XML元素 命名规则
+xml元素可扩展
+	XML 的优势之一，就是可以在不中断应用程序的情况下进行扩展。
+避免 XML 属性？
+	在同等表达信息的时候尽量用元素,尽管他使得xml文档看起来很长,但扩展性好,同样元素下方还能进一步形成树结构.
+
+

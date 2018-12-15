@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+<html>
+<head>
+  <title>Please Sign In</title>
+</head>
+<body>
+  <form action="/search" method="get">#表示通过post方法链接到/search
+    <legend>Please sign in:</legend>
+    <p><input type='text' name="username" placeholder="你的名字" value="{{ username }}"></p>
+    <p><input name="password" placeholder="你的密码" type="password"></p>
+    <p><button type="submit">登录</button></p>
+  </form>
+</body>
+</html>
